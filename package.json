@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-chat-emote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeBB Chat Emote Plugin",
   "main": "library.js",
   "scripts": {
