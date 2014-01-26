@@ -8,5 +8,9 @@
 		{
 			"hook": "filter:messaging.parse", "method": "parse", "callbacked": true
 		}
+	],
+	"staticDir": "./public",
+	"css": [
+		"style.css"
 	]
 }

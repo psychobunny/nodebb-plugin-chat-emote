@@ -9,9 +9,9 @@
 				picture;
 
 			if (parseInt(chatData.fromuid, 10) === parseInt(chatData.myuid, 10)) {
-				username = '<span class="chat-user chat-user-you"> '+ chatData.myUserData.username + '</span>';
+				username = '<span class="chat-user chat-emote chat-user-you"> '+ chatData.myUserData.username + '</span>';
 			} else {
-				username = '<span class="chat-user"> ' + chatData.toUserData.username + '</span>';
+				username = '<span class="chat-user chat-emote"> ' + chatData.toUserData.username + '</span>';
 			}
 
 			chatData.parsedMessage = username + '<span class="chat-emote">' + chatData.parsed.replace('/em', '') + '</span>';
