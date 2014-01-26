@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-chat-emote",
+	"name": "NodeBB Chat Emote Plugin",
+	"description": "This NodeBB plugin allows users to do /em emotes in the real-time chat window.",
+	"url": "https://github.com/psychobunny/nodebb-plugin-chat-emote",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:messaging.parse", "method": "parse", "callbacked": true
+		}
+	]
+}
