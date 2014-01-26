@@ -2,7 +2,7 @@
 
 This NodeBB plugin allows users to do /em emotes in the real-time chat window.
 
-![emote](http://i.imgur.com/sXHFsl8.png)
+![emote](http://i.imgur.com/oLFmuom.png)
 
 ## Installation
 
