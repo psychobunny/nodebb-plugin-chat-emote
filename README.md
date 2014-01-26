@@ -6,4 +6,4 @@ This NodeBB plugin allows users to do /em emotes in the real-time chat window.
 
 ## Installation
 
-    npm install nodebb-plugin-mousetrap
+    npm install nodebb-plugin-chat-emote
