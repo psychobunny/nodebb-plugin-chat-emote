@@ -9,7 +9,9 @@
 			"hook": "filter:messaging.parse", "method": "parse", "callbacked": true
 		}
 	],
-	"staticDir": "./public",
+	"staticDirs": {
+		"chatemote": "public"
+	},
 	"css": [
 		"style.css"
 	]
